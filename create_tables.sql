@@ -1,7 +1,7 @@
 -- El script DDL es suponiendo que utilizan BigQuery
 
--- Crear tabla Customer
-CREATE TABLE `project_id.ecommerce.Customer` (
+-- Crear tabla Customers
+CREATE TABLE `project_id.ecommerce.Customers` (
   customer_id INT64,
   email STRING,
   nombre STRING,
@@ -31,8 +31,8 @@ CREATE TABLE `project_id.ecommerce.Item` (
   PRIMARY KEY (item_id)
 );
 
--- Crear tabla Order
-CREATE TABLE `project_id.ecommerce.Order` (
+-- Crear tabla Orders
+CREATE TABLE `project_id.ecommerce.Orders` (
   order_id INT64,
   customer_id INT64,
   order_date DATE,

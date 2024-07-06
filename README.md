@@ -31,7 +31,7 @@ Un usuario ingresa al sitio de Mercado Libre para comprar dos dispositivos móvi
 ### A resolver
 1. **Listar los usuarios que cumplen años el día de hoy cuya cantidad de ventas realizadas en enero 2020 sea superior a 1500.**
 2. **Para cada mes del 2020, se solicita el top 5 de usuarios que más vendieron ($) en la categoría Celulares. Se requiere el mes y año de análisis, nombre y apellido del vendedor, cantidad de ventas realizadas, cantidad de productos vendidos y el monto total transaccionado.**
-3. **Poblar una nueva tabla con el precio y estado de los Ítems a fin del día. Tener en cuenta que debe ser reprocesable. Vale resaltar que en la tabla Item, solo se tendrá el último estado informado por la PK definida. (Se puede resolver a través de Stored Procedure)**
+3. **Poblar una nueva tabla con el precio y estado de los Ítems a fin del día. Tener en cuenta que debe ser reprocesable. Vale resaltar que en la tabla Item, solo se tendrá el último estado informado por la PK definida. (Se puede resolver a través de Stored Procedure.)**
 
 ### Backlog de Tareas
 1. Diseñar un DER del modelo de datos que logre responder cada una de las preguntas mencionadas anteriormente.
